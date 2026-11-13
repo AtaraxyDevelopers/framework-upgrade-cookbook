@@ -1,0 +1,26 @@
+{
+  "name": "@ataraxydevelopers/framework-upgrade-cookbook",
+  "version": "0.1.0",
+  "description": "Executable Express 4 to 5 migration examples with shared HTTP contract tests.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "author": "Ataraxy Developers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtaraxyDevelopers/framework-upgrade-cookbook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AtaraxyDevelopers/framework-upgrade-cookbook/issues"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/compare.mjs"
+  },
+  "dependencies": {
+    "express4": "npm:express@4.22.3",
+    "express5": "npm:express@5.3.0"
+  }
+}
