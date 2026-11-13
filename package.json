@@ -1,6 +1,6 @@
 {
   "name": "@ataraxydevelopers/framework-upgrade-cookbook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Executable Express 4 to 5 migration examples with shared HTTP contract tests.",
   "type": "module",
   "engines": {
